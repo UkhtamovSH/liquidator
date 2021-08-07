@@ -1,0 +1,634 @@
+.inputWithIcon {
+    position: relative;
+}
+
+.inputWithIcon .inputWithIconInput {
+    width: 100%;
+    padding: 25px 25px 25px 65px;
+    background: #EBEBEB;
+    border-radius: 15px;
+    border: none !important;
+    box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.1);
+}
+
+.inputWithIcon .inputWithIconInput:focus {
+    outline: none;
+    box-shadow: inset 0px 0px 17px rgba(0, 0, 0, 0.1);
+}
+
+.inputWithIconInputIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 28px 0 28px 37px;
+}
+
+.appBtn {
+    background: radial-gradient(50% 50% at 50% 50%, #11EF94 0%, #10FB9B 53.65%, #0DEE92 97.4%);
+    border-radius: 15px;
+    border: none;
+    padding: 26px 25px 26px 35px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 90%;
+    font-family: 'Cabin-SemiBold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: -0.08em;
+    color: #FFFFFF;
+    box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.1);
+}
+
+.appBtn:before {
+    content: '';
+    width: 100%;
+    height: 109%;
+    position: absolute;
+    border-radius: 15px;
+    border: none;
+    padding: 26px 25px 26px 35px;
+    border-top: 11px solid #0DEE92;
+    border-bottom: 11px solid #11a056;
+    top: -3px;
+    left: 0;
+    z-index: -1;
+}
+
+.appBtn:focus {
+    outline: none;
+}
+
+.appBtn:active {
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+/*Header Section start*/
+.appHeaderSection {
+    width: 100%;
+    min-height: 722px;
+    background-image: url("../img/headerSectionBacground.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.appHeaderSection:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.87);
+    width: 100%;
+    height: 100%;
+}
+
+.appHeaderSection .appHeaderMenuContainer {
+    position: relative;
+    z-index: 3;
+}
+
+.appHeaderSection .appHeaderMenuContainer .appHeaderMenuFlex {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.appHeaderMenuSubFlexOne {
+    display: flex;
+    align-items: center;
+}
+
+.appHeaderMenuSubFlexOne .appHeaderMenuDesc {
+    width: 258px;
+    margin-left: 20px;
+    margin-right: 40px;
+    font-family: 'Cabin-Regular', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: -0.06em;
+    color: #000000;
+}
+
+.appHeaderMenuSubFlexTwo {
+    display: flex;
+    align-items: center;
+}
+
+.appHeaderMenuSubFlexTwo .appHeaderMenuPhone {
+    margin-left: 20px;
+    font-family: 'Cabin-Medium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.06em;
+    color: #000000;
+
+}
+
+.headerHumanMain {
+    position: absolute;
+    right: 71px;
+    bottom: 0;
+    z-index: 2;
+}
+
+.headerHumanCardMain {
+    width: 700px;
+    height: 666px;
+    background-image: url("../img/headerImg2Human.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    border: none;
+}
+
+.headerHumanPieceImgsMain {
+    position: absolute;
+    right: 10px;
+    top: 89px;
+}
+
+.headerDoubleCardMain {
+    width: 165px;
+    height: auto;
+    position: relative;
+}
+
+.headerDoubleCardMain .headerDoubleCardOneMain {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headerDoubleCardMain .headerDoubleCardOneMain .headerDoubleCardOne {
+    box-shadow: 0px 6px 18px rgba(163, 163, 163, 0.25);
+    border-radius: 10px;
+    border: none;
+    width: 95%;
+    height: 104%;
+}
+
+.headerDoubleCardMain .headerDoubleCardTwo {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 6px 18px rgba(163, 163, 163, 0.25);
+    border-radius: 10px;
+    border: none;
+}
+
+.headerDoubleCardMain .headerDoubleCardTwo .doubleCardText {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+}
+
+.appHeaderInfoContainer {
+    z-index: 3;
+    position: relative;
+    margin-top: 20px;
+}
+
+.appHeaderInfoContainer .appHeaderInfo .headerInfoText1 {
+    font-family: 'Cabin-BoldItalic', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 127%;
+    letter-spacing: -0.06em;
+    color: #000000;
+}
+
+.appHeaderInfoContainer .appHeaderInfo .headerInfoText1 span {
+    color: #12E790;
+}
+
+.appHeaderInfoContainer .appHeaderInfo .headerInfoText2 {
+    margin-top: 60px;
+    font-family: 'Cabin-BoldItalic', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: -0.06em;
+    color: #000000;
+    padding: 12px 20px;
+    background: #EBEBEB;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.appHeaderInfoContainer .appHeaderInfo .headerInfoText3 {
+    margin-top: 28px;
+    font-family: 'Cabin-BoldItalic', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 140%;
+    letter-spacing: -0.06em;
+    color: #000000;
+}
+
+.appHeaderInfoContainer .appHeaderInfo .headerInfoText4 {
+    font-family: 'Roboto-Light', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.cloudHeaderMainDiv {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/headerCloud.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: -240px;
+    left: 0;
+    z-index: 2;
+}
+
+.anotherHeaderImgMain {
+    position: relative;
+}
+
+.anotherHeaderImgMain .anotherHeaderImgDiv {
+    position: absolute;
+    bottom: -220px;
+    left: 0;
+    z-index: 3;
+}
+
+/*Header Section start*/
+
+@media (min-width: 1500px) {
+
+}
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    .appHeaderInfoContainer .appHeaderInfo .headerInfoText1 {
+        font-size: 35px;
+        width: 81%;
+    }
+
+    .headerHumanCardMain {
+        width: 600px;
+    }
+
+    .appHeaderInfoContainer .appHeaderInfo .headerInfoText2 {
+        font-size: 20px;
+    }
+
+    .appHeaderInfoContainer .appHeaderInfo .headerInfoText3 {
+        font-size: 22px;
+        width: 80%;
+    }
+
+    .appHeaderMenuSubFlexOne .appHeaderMenuDesc {
+        width: 188px;
+    }
+
+    .skewXBtn {
+        font-size: 14px;
+    }
+
+    .headerHumanMain {
+        right: 15px;
+    }
+
+    .appBtn {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 26px 0 26px 0;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 765px) {
+
+    .appHeaderInfoContainer .appHeaderInfo .headerInfoText1 {
+        font-size: 29px;
+        width: 81%;
+    }
+
+    .headerHumanCardMain {
+        width: 600px;
+    }
+
+    .appHeaderInfoContainer .appHeaderInfo .headerInfoText2 {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+
+    .appHeaderInfoContainer .appHeaderInfo .headerInfoText3 {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .appHeaderMenuSubFlexOne .appHeaderMenuDesc {
+        width: 188px;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+
+    .skewXBtn {
+        font-size: 13px;
+    }
+
+    .headerHumanMain {
+        right: 15px;
+    }
+
+    .appBtn {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 26px 0 26px 0;
+        font-size: 14px;
+    }
+
+    .appHeaderMenuSubFlexTwo {
+        flex-direction: column;
+    }
+
+    .inputWithIcon .inputWithIconInput {
+        width: 60%;
+        padding: 22px 22px 22px 65px;
+    }
+
+    .appBtn {
+        margin-top: 20px;
+        width: 60%;
+        padding: 21px 0 21px 0;
+    }
+
+    .anotherHeaderImgDiv {
+        display: none;
+    }
+
+    .appHeaderSection .appHeaderMenuContainer .appHeaderMenuFlex {
+        display: flex;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        justify-content: space-between;
+    }
+
+    .cloudHeaderMainDiv {
+        height: 400px;
+        bottom: -140px;
+    }
+}
+
+@media (max-width: 765px) and (min-width: 576px) {
+
+    .appHeaderInfoContainer .appHeaderInfo .headerInfoText1 {
+        font-size: 29px;
+        width: 100%;
+    }
+
+    .headerHumanCardMain {
+        width: 600px;
+    }
+
+    .appHeaderInfoContainer .appHeaderInfo .headerInfoText2 {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+
+    .appHeaderInfoContainer .appHeaderInfo .headerInfoText3 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .appHeaderMenuSubFlexOne .appHeaderMenuDesc {
+        width: 188px;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+
+    .skewXBtn {
+        font-size: 13px;
+    }
+
+    .headerHumanMain {
+        right: 15px;
+    }
+
+    .appBtn {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 26px 0 26px 0;
+        font-size: 14px;
+    }
+
+    .appHeaderMenuSubFlexTwo {
+        flex-direction: column;
+    }
+
+    .inputWithIcon .inputWithIconInput {
+        width: 49%;
+        padding: 22px 22px 22px 65px;
+    }
+
+    .appBtn {
+        margin-top: 20px;
+        width: 49%;
+        padding: 21px 0 21px 0;
+    }
+
+    .anotherHeaderImgDiv {
+        display: none;
+    }
+
+    .appHeaderSection .appHeaderMenuContainer .appHeaderMenuFlex {
+        display: flex;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        justify-content: space-between;
+    }
+
+    .headerImg3 {
+        display: none;
+    }
+
+    .headerHumanCardMain {
+        width: auto;
+        height: auto;
+        background-image: none;
+    }
+
+    .headerHumanPieceImgsMain {
+        display: none;
+    }
+
+    .appHeaderMenuSubFlexOne {
+        flex-direction: column;
+    }
+
+    .appHeaderMenuDesc {
+        display: none;
+    }
+
+    .cloudHeaderMainDiv {
+        height: 300px;
+        bottom: -100px;
+    }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+
+    .appHeaderInfoContainer .appHeaderInfo .headerInfoText1 {
+        font-size: 21px;
+        width: 100%;
+    }
+
+    .headerHumanCardMain {
+        width: 600px;
+    }
+
+    .appHeaderInfoContainer .appHeaderInfo .headerInfoText2 {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+
+    .appHeaderInfoContainer .appHeaderInfo .headerInfoText3 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .appHeaderMenuSubFlexOne .appHeaderMenuDesc {
+        width: 188px;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+
+    .skewXBtn {
+        font-size: 13px;
+    }
+
+    .headerHumanMain {
+        right: 15px;
+    }
+
+    .appBtn {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 26px 0 26px 0;
+        font-size: 14px;
+    }
+
+    .appHeaderMenuSubFlexTwo {
+        flex-direction: column;
+    }
+
+    .inputWithIcon .inputWithIconInput {
+        width: 90%;
+        padding: 22px 22px 22px 65px;
+    }
+
+    .appBtn {
+        margin-top: 20px;
+        width: 90%;
+        padding: 21px 0 21px 0;
+    }
+
+    .anotherHeaderImgDiv {
+        display: none;
+    }
+
+    .appHeaderSection .appHeaderMenuContainer .appHeaderMenuFlex {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: space-between;
+    }
+
+    .headerImg3 {
+        display: none;
+    }
+
+    .headerHumanCardMain {
+        width: auto;
+        height: auto;
+        background-image: none;
+    }
+
+    .headerHumanPieceImgsMain {
+        display: none;
+    }
+
+    .appHeaderMenuSubFlexOne {
+        flex-direction: column;
+    }
+
+    .appHeaderMenuDesc {
+        display: none;
+    }
+
+    .appHeaderMenuImg {
+        width: 130px;
+    }
+
+    .skewXBtn {
+        font-size: 9px;
+        padding: 5px 5px;
+    }
+
+    .appHeaderMenuSubFlexTwo .appHeaderMenuPhone {
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .headerInfoText2Img {
+        width: 8%;
+    }
+
+    .appHeaderSection {
+        min-height: 600px;
+    }
+    .cloudHeaderMainDiv {
+        height: 300px;
+        bottom: -100px;
+    }
+}
+
+@media (max-width: 1900px) and (min-width: 1700px) {
+    .headerHumanMain {
+        right: 150px;
+    }
+}
+
+@media (max-width: 2100px) and (min-width: 1900px) {
+    .headerHumanMain {
+        right: 260px;
+    }
+}
+
+@media (max-width: 2400px) and (min-width: 2100px) {
+    .headerHumanMain {
+        right: 460px;
+    }
+}
+
+@media (min-width: 2400px) {
+    .headerHumanMain {
+        right: 660px;
+    }
+}

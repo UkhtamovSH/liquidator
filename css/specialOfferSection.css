@@ -1,0 +1,323 @@
+.specialOfferSection {
+    position: relative;
+    width: 100%;
+    min-height: 730px;
+    background-image: url("../img/specialOfferBackground.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.specialOfferSectionBack{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #4E53BB;
+    opacity: .9;
+    z-index: 1;
+}
+.specialOfferSection .specialOfferMan {
+    position: absolute;
+    bottom: 0;
+    width: 600px;
+    height: 450px;
+    background-image: url("../img/specialOfferMan.png");
+    background-position: -55px -15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 2;
+}
+
+.specialOfferManFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.specialOfferInfoRow {
+    position: relative;
+    z-index: 3;
+}
+
+.specialOfferInfoRow .specialOfferInfoCol1 {
+    margin-top: 220px;
+}
+
+.specialOfferInfoRow .specialOfferInfoCol1 .specialOfferText1 {
+    font-family: 'Cabin-BoldItalic', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 130%;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    width: 86.8%;
+}
+
+.specialOfferInfoRow .specialOfferInfoCol1 .specialOfferText1 span {
+    color: #12E790;
+}
+
+.specialOfferInfoRow .specialOfferInfoCol1 .specialOfferText2 {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    width: 63%;
+    margin-top: 25px;
+}
+
+.specialOfferInfoRow .specialOfferInfoCol1 .specialOfferText3 {
+    font-family: 'Cabin-SemiBoldItalic', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.specialOfferInfoRow .specialOfferInfoCol1 .specialOfferText4 {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.08em;
+    color: #FFFFFF;
+}
+
+.specialOfferImgContentMain {
+    margin-top: 37px;
+}
+
+.specialOfferImgContent {
+    background: #0E1861;
+    border-radius: 10px;
+    display: inline-block;
+    transform: skewX(-15deg);
+}
+
+.specialOfferImgContent .specialOfferContentImg {
+    padding-top: 5px;
+}
+
+.specialOfferText34 {
+    margin-left: 20px;
+    display: inline-block;
+    transform: translate(0px, 10px);
+}
+
+.specialOfferInfoCol2Flex{
+    display: flex;
+}
+.specialOfferInfoCol2 .specialOfferInfoCol2Card2{
+    width: 100%;
+    border: none;
+    border-radius: 0!important;
+    padding: 20px 60px 43px 60px;
+}
+.specialOfferInfoCol2 .specialOfferInfoCol2Card{
+    width: 320px;
+    padding: 30px 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-top: 160px;
+}
+
+.specialOfferInfoCol2 .specialOfferInfoCol2Card .specialOfferInfoCol2CardText1,
+.specialOfferInfoCol2 .specialOfferInfoCol2Card2 .specialOfferInfoCol2CardText1 {
+    font-family: 'Cabin-BoldItalic', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #000000;
+}
+
+.specialOfferInfoCol2 .specialOfferInfoCol2Card .specialOfferInfoCol2CardText2,
+.specialOfferInfoCol2 .specialOfferInfoCol2Card2 .specialOfferInfoCol2CardText2 {
+    font-family: 'Roboto-Light', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #000000;
+    margin-top: 15px;
+}
+.offerCheckBoxLabel{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 140%;
+    color: #000000;
+    font-family: 'Roboto-Light', sans-serif;
+    user-select: none;
+    margin-bottom: 0;
+}
+.offerCheckBoxLabel p{
+    transform: translate(0,4px);
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background: #EBEBEB;
+    outline: none!important;
+    box-shadow: none!important;
+    border: none!important;
+    color: #000000;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: url("../img/svg/check.svg");
+}
+.specialOfferSectionCloud{
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/headerCloud.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: -200px;
+    left: 0;
+    z-index: 2;
+}
+.close:focus{
+    outline: none!important;
+}
+
+
+
+@media (min-width: 1500px){
+
+}
+@media (max-width: 1500px) and (min-width: 1200px){
+
+}
+@media (max-width: 1200px) and (min-width: 992px){
+    .specialOfferInfoCol2 .specialOfferInfoCol2Card {
+        margin-top: 100px;
+    }
+    .specialOfferInfoRow .specialOfferInfoCol1 {
+        margin-top: 160px;
+    }
+}
+@media (max-width: 992px) and (min-width: 765px){
+    .specialOfferInfoRow .specialOfferInfoCol1 .specialOfferText1 {
+        font-size: 37px;
+        width: 100%;
+    }
+    .specialOfferInfoCol2 .specialOfferInfoCol2Card {
+        margin-top: 20px;
+        width: 100%!important;
+    }
+    .specialOfferInfoRow .specialOfferInfoCol1 {
+        margin-top: 20px;
+    }
+    .specialOfferInfoRow .specialOfferInfoCol1 .specialOfferText2 {
+        width: 100%;
+    }
+    .specialOfferSection .specialOfferMan {
+        height: auto;
+        background-image: none;
+        bottom: auto;
+     }
+    .specialOfferSection {
+        position: relative;
+        width: 100%;
+        min-height: 630px;
+    }
+}
+@media (max-width: 765px) and (min-width: 576px){
+    .specialOfferInfoRow .specialOfferInfoCol1 .specialOfferText1 {
+        font-size: 30px;
+        width: 100%;
+    }
+    .specialOfferInfoCol2 .specialOfferInfoCol2Card {
+        margin-top: 20px;
+        width: 100%!important;
+    }
+    .specialOfferInfoRow .specialOfferInfoCol1 {
+        margin-top: 20px;
+    }
+    .specialOfferInfoRow .specialOfferInfoCol1 .specialOfferText2 {
+        width: 100%;
+    }
+    .specialOfferSection .specialOfferMan {
+        height: auto;
+        background-image: none;
+        bottom: auto;
+    }
+    .specialOfferSection {
+        position: relative;
+        width: 100%;
+        min-height: 630px;
+    }
+}
+@media only screen and (max-width: 576px) and (min-width: 320px){
+
+    .specialOfferInfoRow .specialOfferInfoCol1 .specialOfferText1 {
+        font-size: 20px;
+        width: 100%;
+    }
+    .specialOfferInfoCol2 .specialOfferInfoCol2Card {
+        margin-top: 20px;
+        width: 100%!important;
+    }
+    .specialOfferInfoRow .specialOfferInfoCol1 {
+        margin-top: 20px;
+    }
+    .specialOfferInfoRow .specialOfferInfoCol1 .specialOfferText2 {
+        width: 100%;
+    }
+    .specialOfferSection .specialOfferMan {
+        height: auto;
+        background-image: none;
+        bottom: auto;
+    }
+    .specialOfferSection {
+        position: relative;
+        width: 100%;
+        min-height: 630px;
+    }
+    .specialOfferImgContentMain {
+        margin-top: 15px;
+    }
+    .specialOfferText34 {
+        margin-left: 0;
+        display: inline-block;
+        transform: translate(0, 10px);
+    }
+    .specialOfferInfoCol1{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .specialOfferInfoCol2{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .specialOfferInfoCol2CardText1 {
+         font-size: 20px!important;
+     }
+    .specialOfferSectionCloud {
+        height: 200px;
+        bottom: -100px;
+    }
+
+    .specialOfferInfoCol2Card2 {
+        padding: 20px 20px 43px 20px!important;
+    }
+    .specialOfferInfoCol2Card2 .specialOfferInfoCol2CardText1 {
+        margin-top: 15px;
+        font-size: 18px!important;
+    }
+    .appBtn2 {
+        font-size: 13px;
+    }
+}

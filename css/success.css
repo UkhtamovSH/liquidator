@@ -1,0 +1,347 @@
+.successSectionMain {
+    background: #4E53BB;
+    height: 100vh;
+    width: 100%;
+}
+
+.successSectionMain .successSectionHeaderMain {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: auto;
+}
+
+.successSectionMain .successSectionHeader .titleHeader {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 27px;
+    color: #FFFFFF;
+    font-family: 'Poppins-Bold', sans-serif;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 0;
+}
+
+.successSectionMain .successSectionHeaderInfo .title {
+    font-family: 'Poppins-Medium', sans-serif;
+    margin-bottom: 0;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-top: 80px;
+}
+
+.successSectionMain .successSectionHeaderInfo .description {
+    font-family: 'Poppins-Medium', sans-serif;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 74%;
+    margin-top: 50px;
+}
+
+.successSectionMain .headerButton {
+    margin-top: 46px;
+    min-width: 100px;
+    padding: 20px 40px 20px 40px;
+    background: #FFFFFF;
+    transition: 0.3s;
+    border-radius: 50px;
+    border: none;
+    font-family: "Montserrat-SemiBold", sans-serif;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3E7933;
+}
+
+.successSectionMain .headerButton:focus,
+.headerButton:active {
+    outline: none;
+    border: none !important;
+}
+
+.successSectionMain .headerButton:hover {
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.appHeaderMenuContainer {
+    position: relative;
+    z-index: 3;
+}
+
+.appHeaderMenuContainer .appHeaderMenuFlex {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.appHeaderMenuSubFlexOne {
+    display: flex;
+    align-items: center;
+}
+
+.appHeaderMenuSubFlexOne .appHeaderMenuDesc {
+    width: 258px;
+    margin-left: 20px;
+    margin-right: 40px;
+    font-family: 'Cabin-Regular', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: -0.06em;
+    color: #000000;
+}
+
+.appHeaderMenuSubFlexTwo {
+    display: flex;
+    align-items: center;
+}
+
+.appHeaderMenuSubFlexTwo .appHeaderMenuPhone {
+    margin-left: 20px;
+    font-family: 'Cabin-Medium', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.06em;
+    color: #000000;
+
+}
+
+.appHeaderMenuSectionn{
+    background-color: #FFFFFF;
+}
+.appBtn33Main{
+    margin-top: 70px;
+}
+.appBtn33{
+    margin-top: 8px;
+    background: radial-gradient(50% 50% at 50% 50%, #11EF94 0%, #10FB9B 53.65%, #0DEE92 97.4%);
+    border-radius: 15px;
+    border: none;
+    padding: 18px 62px 18px 62px;
+    position: relative;
+    height: 90%;
+    font-family: 'Cabin-SemiBold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.08em;
+    color: #FFFFFF;
+    box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.appBtn33:before{
+    content: '';
+    width: 100%;
+    height: 76%;
+    position: absolute;
+    border-radius: 15px;
+    border: none;
+    padding: 18px 62px 18px 62px;
+    border-bottom: 5px solid #0c5a2d;
+    left: 0;
+}
+.appBtn33:focus{
+    outline: none;
+}
+.appBtn33:active{
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 1500px) {
+
+}
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    .successSectionMain .successSectionHeaderInfo .title {
+        font-size: 40px;
+        margin-top: 0;
+        padding-top: 80px;
+    }
+
+    .successSectionMain .successSectionHeaderInfo .description {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .appHeaderMenuSubFlexOne .appHeaderMenuDesc {
+        width: 188px;
+    }
+
+    .skewXBtn {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 765px) {
+    .successSectionMain .successSectionHeaderInfo .title {
+        font-size: 40px;
+        margin-top: 0;
+        padding-top: 50px;
+    }
+
+    .successSectionMain .successSectionHeaderInfo .description {
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .successSectionMain .successSectionHeader .titleHeader {
+        font-size: 25px;
+    }
+
+    .appHeaderMenuContainer .appHeaderMenuFlex {
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: space-between !important;
+        width: 100%;
+        align-items: center;
+        height: 100%;
+    }
+
+    .appHeaderMenuSubFlexOne .appHeaderMenuDesc {
+        width: 188px;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+
+    .skewXBtn {
+        font-size: 13px;
+    }
+
+    .appHeaderMenuSubFlexTwo {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 765px) and (min-width: 576px) {
+
+    .successSectionMain .successSectionHeaderInfo .title {
+        font-size: 40px;
+        margin-top: 0;
+        padding-top: 50px;
+    }
+
+    .successSectionMain .successSectionHeaderInfo .description {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .successSectionMain .successSectionHeader .titleHeader {
+        font-size: 25px;
+    }
+
+    .appHeaderMenuContainer .appHeaderMenuFlex {
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+    .appHeaderMenuSubFlexOne .appHeaderMenuDesc {
+        width: 188px;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+
+    .skewXBtn {
+        font-size: 13px;
+    }
+
+    .appHeaderMenuSubFlexOne {
+        flex-direction: column;
+    }
+
+    .appHeaderMenuDesc {
+        display: none;
+    }
+
+    .appHeaderMenuSubFlexTwo {
+        flex-direction: column;
+    }
+
+    .appHeaderMenuImg {
+        width: 130px;
+    }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 320px) {
+
+
+    .successSectionMain .successSectionHeaderInfo .title {
+        font-size: 23px;
+        margin-top: 0;
+        padding-top: 30px;
+    }
+
+    .successSectionMain .successSectionHeaderInfo .description {
+        font-size: 15px;
+        width: 90%;
+    }
+
+    .successSectionMain .headerButton {
+        padding: 15px 40px 15px 40px;
+        font-size: 14px;
+    }
+
+    .successSectionMain .successSectionHeader .titleHeader {
+        font-size: 25px;
+    }
+
+    .appHeaderMenuSubFlexOne {
+        flex-direction: column;
+    }
+
+    .appHeaderMenuDesc {
+        display: none;
+    }
+
+    .appHeaderMenuSubFlexOne .appHeaderMenuDesc {
+        width: 188px;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+
+    .skewXBtn {
+        font-size: 8px;
+    }
+
+    .appHeaderMenuSubFlexTwo {
+        flex-direction: column;
+    }
+
+    .appHeaderMenuContainer .appHeaderMenuFlex {
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+    .appHeaderMenuImg {
+        width: 130px;
+    }
+
+    .appHeaderMenuSubFlexTwo .appHeaderMenuPhone {
+        font-size: 14px;
+        margin-left: 0;
+    }
+}

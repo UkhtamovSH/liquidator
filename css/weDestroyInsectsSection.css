@@ -1,0 +1,145 @@
+.weDestroyInsectsSection {
+    padding-top: 220px;
+    margin-bottom: 105px;
+}
+
+.weDestroyInsectsGridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 50px 30px;
+    margin-top: 80px;
+}
+
+.weDestroyInsectsGridItem {
+    width: 208px;
+}
+
+.weDestroyInsectsTitle {
+    font-family: 'Cabin-SemiBoldItalic', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.06em;
+    color: #000000;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insectsImg{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+@media (min-width: 1500px){
+
+}
+@media (max-width: 1500px) and (min-width: 1200px){
+
+}
+@media (max-width: 1200px) and (min-width: 992px){
+    .weDestroyInsectsGridContainer {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 50px 30px;
+        margin-top: 80px;
+    }
+
+    .weDestroyInsectsGridItem {
+        width: 100%;
+    }
+    .insectsTitleMainFlex{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .weDestroyInsectsTitle{
+        width: 200px;
+        font-size: 20px;
+    }
+    .appBtn3 {
+        font-size: 13px;
+    }
+}
+@media (max-width: 992px) and (min-width: 765px){
+    .weDestroyInsectsGridContainer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 50px 30px;
+        margin-top: 80px;
+    }
+
+    .weDestroyInsectsGridItem {
+        width: 100%;
+    }
+    .insectsTitleMainFlex{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .weDestroyInsectsTitle{
+        width: 200px;
+        font-size: 20px;
+    }
+    .appBtn3 {
+        font-size: 13px;
+    }
+}
+@media (max-width: 765px) and (min-width: 576px){
+
+    .weDestroyInsectsGridContainer {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 50px 30px;
+        margin-top: 80px;
+    }
+
+    .weDestroyInsectsGridItem {
+        width: 100%;
+    }
+    .insectsTitleMainFlex{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .weDestroyInsectsTitle{
+        width: 200px;
+        font-size: 20px;
+    }
+    .appBtn3 {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 576px) and (min-width: 320px){
+
+    .weDestroyInsectsGridContainer {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 50px 30px;
+        margin-top: 80px;
+    }
+
+    .weDestroyInsectsGridItem {
+        width: 100%;
+    }
+    .insectsTitleMainFlex{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .weDestroyInsectsTitle{
+        width: 200px;
+        font-size: 20px;
+    }
+    .appBtn3 {
+        font-size: 13px;
+    }
+
+    .weDestroyInsectsSection {
+        padding-top: 80px;
+        margin-bottom: 50px;
+    }
+}
